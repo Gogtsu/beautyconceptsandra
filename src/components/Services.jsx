@@ -1,23 +1,29 @@
-import serviceFace from '../assets/service-face.png';
-import serviceBody from '../assets/service-body.png';
-import serviceSpa from '../assets/service-spa.png';
+import placeholderImg from '../assets/services1.jpg';
+import placeholderImg2 from '../assets/services4.jpg';
+import placeholderImg3 from '../assets/services3.jpg';
+import placeholderImg4 from '../assets/services2.jpg';
 import useScrollObserver from '../hooks/useScrollObserver';
 
 const services = [
     {
-        title: "Tratamente Faciale",
-        desc: "Revitalizează-ți tenul cu ritualurile noastre signature anti-aging și de hidratare profundă.",
-        image: serviceFace
+        title: "Unghii",
+        desc: "Manichiură și pedichiură impecabilă, realizată cu produse premium.",
+        image: placeholderImg
     },
     {
-        title: "Ritualuri Corporale",
-        desc: "Masaje de relaxare și scrub-uri corporale concepute pentru a-ți reda echilibrul.",
-        image: serviceBody
+        title: "Hair Color",
+        desc: "Tehnici moderne de colorare pentru un look vibrant și sănătos.",
+        image: placeholderImg2
     },
     {
-        title: "Experiență Spa",
-        desc: "Lasă-te purtată de simțuri în suita noastră termală și zona de relaxare.",
-        image: serviceSpa
+        title: "Extensii",
+        desc: "Volum și lungime naturală pentru părul tău, aplicate cu grijă.",
+        image: placeholderImg3
+    },
+    {
+        title: "Tunsoare",
+        desc: "Styling personalizat care îți pune în valoare trăsăturile.",
+        image: placeholderImg4
     }
 ];
 
