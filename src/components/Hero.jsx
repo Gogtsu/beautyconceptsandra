@@ -1,4 +1,4 @@
-import heroBg from '../assets/hero-bg.png';
+import heroBg from '../assets/hero.jpg';
 import useScrollObserver from '../hooks/useScrollObserver';
 
 export default function Hero() {
@@ -73,7 +73,15 @@ export default function Hero() {
                     Descoperă un sanctuar al calmului și încrederii. Tratamente premium create pentru a-ți dezvălui strălucirea naturală.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-                    <button className="btn btn-primary">Programează-te</button>
+                    <a
+                        href="https://mero.ro/p/beauty-concept-by-sandra"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary"
+                        style={{ textDecoration: 'none' }}
+                    >
+                        Programează-te
+                    </a>
                     <button className="btn btn-outline" onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })}>Vezi Servicii</button>
                 </div>
             </div>

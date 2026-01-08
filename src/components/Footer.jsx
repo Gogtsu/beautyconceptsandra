@@ -13,7 +13,10 @@ export default function Footer() {
                 </div>
 
                 <div style={{ textAlign: 'right' }}>
-                    <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>București, România</p>
+                    <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>Olimpului 59, București, România</p>
+                    <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>
+                        <a href="tel:0745288052" style={{ color: 'inherit', textDecoration: 'none' }}>0745 288 052</a>
+                    </p>
                     <p style={{ fontSize: '0.9rem', color: '#666' }}>&copy; {new Date().getFullYear()} Beauty Concept. Toate drepturile rezervate.</p>
                 </div>
             </div>

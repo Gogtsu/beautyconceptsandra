@@ -1,7 +1,7 @@
-import img1 from '../assets/gallery-1.png';
-import img2 from '../assets/gallery-2.png';
-import img3 from '../assets/gallery-3.png';
-import img4 from '../assets/gallery-4.png';
+import img1 from '../assets/gallery1.jpg';
+import img2 from '../assets/gallery2.jpg';
+import img3 from '../assets/gallery3.jpg';
+import img4 from '../assets/gallery4.jpg';
 import useScrollObserver from '../hooks/useScrollObserver';
 
 export default function Gallery() {
